@@ -20,8 +20,8 @@ public class Startklasse {
 		mitarb2.setgehalt(2900);
 		mitarb2.setkinder(4);
 		
-		System.out.println("Die Gehaltserhöhhung von Mitarbeiter Maier beträgt: " + mitarb1.erhoeheGehalt());
-		System.out.println("Die Gehaltserhöhhung von Mitarbeiter Neumann beträgt: " + mitarb2.erhoeheGehalt());
+		System.out.println("Die Gehaltserhöhhung von Mitarbeiter "+ mitarb1.name + " beträgt: " + mitarb1.erhoeheGehalt()+"€");
+		System.out.println("Die Gehaltserhöhhung von Mitarbeiter "+ mitarb2.name + " beträgt: " + mitarb2.erhoeheGehalt()+"€");
 		
 
 	}
